@@ -26,5 +26,4 @@ $a = new stdClass();
 $a->bbb = "object create";
 $a->ccc = "object delete";
 print_r($a);
-
 ?>
