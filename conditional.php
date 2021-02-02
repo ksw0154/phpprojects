@@ -24,7 +24,6 @@
                 echo '3<br>';
             }
             echo '4<br>';
-            
         ?>
     </body>
 </html>
