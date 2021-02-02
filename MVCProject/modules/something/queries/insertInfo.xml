@@ -1,0 +1,11 @@
+<query id="insertPersoninfo" action="insert">
+    <tables>
+        <table name="text_manage_form" />
+    </tables>
+    <columns>       
+        <column name="submit_name" var="submit_name" />
+        <column name="submit_phonenumber" var="submit_phonenumber" />
+        <column name="submit_age" var="submit_age" />   
+        <column name="regdate" var="regdate" default="curdate()" />
+    </columns>
+</query>

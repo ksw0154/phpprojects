@@ -1,0 +1,7 @@
+<table name="text_manage_form">
+    <column name="form_srl" type="bigint" size="20" notnull="notnull" auto_increment="auto_increment" primary_key="primary_key" /> 
+    <column name="submit_name" type="varchar" size="255" />
+    <column name="submit_phonenumber" type="varchar" size="255" />
+    <column name="submit_age" type="varchar" size="255" />
+    <column name="regdate" type="date" />
+</table>
