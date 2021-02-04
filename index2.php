@@ -18,6 +18,17 @@
             $list2 = ['Abel', 'Smith', 'Adam'];
             var_dump($list2);
             echo '<br>';
+
+            $i = 0;
+            while($i < count($list)) {
+                if($list[$i] != '.') {
+                    if($list[$i] != '..') {
+                        echo "<li><a href = \"index2.php?id=$list[i]\">$list[$i]</a></li>\n";
+                        
+                    }
+                }
+                $i += 1;
+            }
         ?>
     </ol>
 </body>
